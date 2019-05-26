@@ -1,0 +1,58 @@
+{
+  "name": "voicescriber",
+  "version": "1.0.0",
+  "description": "Voice Scriber App",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nvm use 10 && gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reek/voicescriber.git"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "author": "Ricardo Reves",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "babelify": "^10.0.0",
+    "browser-sync": "^2.26.3",
+    "browserify": "^16.2.3",
+    "create-index": "^2.4.0",
+    "csso": "^3.5.1",
+    "del": "^4.0.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-cache": "^1.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-flatten": "^0.4.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-shell": "^0.7.0",
+    "gulp-uglify": "^3.0.1",
+    "gulp-util": "^3.0.8",
+    "node-sass": "^4.11.0",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-ftp": "^0.6.1",
+    "vinyl-source-stream": "^2.0.0",
+    "vinyl-transform": "^1.0.0"
+  },
+  "dependencies": {
+    "clipboard": "^2.0.4",
+    "firebase": "^5.8.3",
+    "material-icons": "^0.3.0",
+    "materialize-css": "^1.0.0-rc.2",
+    "wavesurfer.js": "^2.1.3"
+  }
+}

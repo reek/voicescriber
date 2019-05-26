@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'gloria_hallelujahregular';
+    src: url('../fonts/gloriahallelujah-webfont.woff2') format('woff2'),
+        url('../fonts/gloriahallelujah-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/MaterialIcons-Regular.eot');
+    /* For IE6-8 */
+    src: local('Material Icons'),
+        local('MaterialIcons-Regular'),
+        url('../fonts/MaterialIcons-Regular.woff2') format('woff2'),
+        url('../fonts/MaterialIcons-Regular.woff') format('woff'),
+        url('../fonts/MaterialIcons-Regular.ttf') format('truetype');
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    /*     
+    background-color: black;
+    color: #fff; 
+    */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'gloria_hallelujahregular', cursive;
+    /*  font-variant: small-caps; */
+    /* border-bottom: 1px solid rgb(202, 58, 58); */
+}
+
+canvas {
+    cursor: pointer;
+}
+
+app-brand {
+    font-family: 'gloria_hallelujahregular', cursive;
+    /* font-variant: small-caps; */
+    /* border-bottom: 1px solid rgb(202, 58, 58); */
+}
+
+app-main {
+    display: block;
+    min-height: 1080px;
+}
+
+.text-shadow-otto {
+    text-shadow: 0 1px 0 #ccc,
+        0 2px 0 #c9c9c9,
+        0 3px 0 #bbb,
+        0 4px 0 #b9b9b9,
+        0 5px 0 #aaa,
+        0 6px 1px rgba(0, 0, 0, .1),
+        0 0 5px rgba(0, 0, 0, .1),
+        0 1px 3px rgba(0, 0, 0, .3),
+        0 3px 5px rgba(0, 0, 0, .2),
+        0 5px 10px rgba(0, 0, 0, .25),
+        0 10px 10px rgba(0, 0, 0, .2),
+        0 20px 20px rgba(0, 0, 0, .15);
+}
+
+.text-shadow-glow {
+    text-shadow:
+        1px 0px 1px #444, 0px 1px 1px #333,
+        2px 1px 1px #444, 1px 2px 1px #333,
+        3px 2px 1px #444, 2px 3px 1px #333,
+        4px 3px 1px #444, 3px 4px 1px #333,
+        5px 4px 1px #444, 4px 5px 1px #333,
+        6px 5px 1px #444, 5px 6px 1px #333,
+        7px 6px 1px #444;
+}
+
+/* hide hoster banner */
+script + div {
+    left: -99999999999px;
+  }
