@@ -1,5 +1,5 @@
 node_modules/
-.firebase/
 dist/
+.firebase/
 .firebaserc
-gulpfile.js
+.env
