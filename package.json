@@ -4,8 +4,12 @@
   "description": "Voice Scriber App",
   "main": "index.js",
   "scripts": {
-    "dev": "nvm use 10 && gulp",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "gulp",
+    "prod": "gulp prod",
+    "deploy:firebase": "gulp deploy:firebase",
+    "deploy:nomades": "gulp deploy:nomades",
+    "deploy:cadze": "gulp deploy:cadze",
+    "deploy:ghpages": "gulp deploy:ghpages"
   },
   "repository": {
     "type": "git",
@@ -21,11 +25,12 @@
     "@babel/core": "^7.3.3",
     "@babel/preset-env": "^7.3.1",
     "babelify": "^10.0.0",
-    "browser-sync": "^2.26.3",
+    "browser-sync": "^2.26.5",
     "browserify": "^16.2.3",
     "create-index": "^2.4.0",
     "csso": "^3.5.1",
     "del": "^4.0.0",
+    "dotenv": "^8.0.0",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-babel": "^8.0.0",
