@@ -4,8 +4,8 @@ export const getSkeleton = () => {
         <div class="center row section">
             <i class="material-icons large red-text">graphic_eq</i>
             <h1 class="black-text"><app-brand>Voicescriber</app-brand></h1>
-            <p class="light center">We have provided detailed documentation as well as specific code examples to help new
-                users get started.</p>
+            <p class="light center">Voice Scriber is a online tool that uses the API of your browser to record your voice using a microphone and save it on
+            the cloud.</p>
         </div>
         < <div class="row">
             <div class="col s12">
